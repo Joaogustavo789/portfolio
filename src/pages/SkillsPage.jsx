@@ -1,6 +1,11 @@
+import Header from "../components/Header";
+
 function SkillsPage() {
   return (
-    <div>SkillsPage</div>
+    <main>
+      <Header />
+      <div>SkillsPage</div>
+    </main>
   )
 }
 

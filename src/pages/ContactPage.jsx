@@ -1,6 +1,11 @@
+import Header from "../components/Header";
+
 function ContactPage() {
   return (
-    <div>ContactPage</div>
+    <main>
+      <Header />
+      <div>ContactPage</div>
+    </main>
   )
 }
 

@@ -1,6 +1,11 @@
+import Header from "../components/Header";
+
 function ProjectsPage() {
   return (
-    <div>ProjectsPage</div>
+    <main>
+      <Header />
+      <div>ProjectsPage</div>
+    </main>
   )
 }
 
