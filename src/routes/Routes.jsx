@@ -9,7 +9,7 @@ function Routes() {
     <Switch>
       <Route exact path="/" component={ HomePage }/>
       <Route exact path="/sobre-mim" component={ AboutPage }/>
-      <Route exact path="/skills" component={ SkillsPage }/>
+      <Route exact path="/habilidades" component={ SkillsPage }/>
       <Route exact path="/projetos" component={ ProjectsPage }/>
     </Switch>
   )

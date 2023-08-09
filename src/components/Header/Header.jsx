@@ -14,7 +14,7 @@ function Header() {
   }
 
   const handleSkills = () => {
-    history.push('/skills')
+    history.push('/habilidades')
   }
 
   const handleProjects = () => {
@@ -35,7 +35,7 @@ function Header() {
 
       <Button
         click={ handleSkills }
-        text="Skills" 
+        text="Habilidades" 
       />
 
       <Button
