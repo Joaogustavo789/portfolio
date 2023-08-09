@@ -1,9 +1,8 @@
 import { Route, Switch } from 'react-router-dom';
-import HomePage from '../pages/HomePage';
-import AboutPage from '../pages/AboutPage';
-import ContactPage from '../pages/ContactPage';
-import ProjectsPage from '../pages/ProjectsPage';
-import SkillsPage from '../pages/SkillsPage';
+import HomePage from '../pages/HomePage/HomePage';
+import AboutPage from '../pages/AboutPage/AboutPage';
+import ProjectsPage from '../pages/ProjectsPage/ProjectsPage';
+import SkillsPage from '../pages/SkillsPage/SkillsPage';
 
 function Routes() {
   return (
@@ -12,7 +11,6 @@ function Routes() {
       <Route exact path="/sobre-mim" component={ AboutPage }/>
       <Route exact path="/skills" component={ SkillsPage }/>
       <Route exact path="/projetos" component={ ProjectsPage }/>
-      <Route exact path="/contato" component={ ContactPage }/>
     </Switch>
   )
 }

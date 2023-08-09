@@ -1,5 +1,6 @@
-import Button from "./assets/Button";
+import Button from "../helpers/Button/Button";
 import { useHistory } from 'react-router-dom';
+import { HeaderStyled } from './styles.jsx';
 
 function Header() {
   const history = useHistory();
@@ -20,12 +21,8 @@ function Header() {
     history.push('/projetos')
   }
 
-  const handleContact = () => {
-    history.push('/contato')
-  }
-
   return (
-    <main>
+    <HeaderStyled>
        <Button
         click={ handleHome }
         text="Inicio" 
@@ -45,12 +42,7 @@ function Header() {
         click={ handleProjects }
         text="Projetos" 
       />
-
-      <Button
-        click={ handleContact }
-        text="Contato" 
-      />
-    </main>
+    </HeaderStyled>
   )
 }
 
