@@ -1,4 +1,4 @@
-import Button from "../helpers/Button/Button";
+import Button from "../helpers/Buttons/Button";
 import { useHistory } from 'react-router-dom';
 import { HeaderStyled } from './styles.jsx';
 
