@@ -1,6 +1,13 @@
+import { FooterStyled } from './styles.jsx';
+
 function Footer() {
   return (
-    <div>Footer</div>
+    <FooterStyled>
+      <div>Email</div>
+      <div>Linkedin</div>
+      <div>GitHub</div>
+      <div>Instagram</div>
+    </FooterStyled>
   )
 }
 
