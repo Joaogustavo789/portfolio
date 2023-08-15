@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-import Card from "../../components/helpers/Cards/Card";
+import CardSkill from "../../components/helpers/Cards/CardSkill";
 import Footer from '../../components/Footer/Footer';
 import GitLogo from '../../images/assets/git.svg';
 import GitHubLogo from '../../images/assets/github.svg';
@@ -23,107 +23,107 @@ function SkillsPage() {
   return (
     <main>
       <Header />
-        <Card
+        <CardSkill
           text='Git'
           image={ GitLogo }
           description='Logo do Git'
         />
-        <Card
+        <CardSkill
           text='GitHub'
           image={ GitHubLogo }
           description='Logo do GitHub'
         />
-        <Card
+        <CardSkill
           text='HTML'
           image={ HTMLLogo }
           description='Logo do HTML'
         />
-        <Card
+        <CardSkill
           text='CSS'
           image={ CSSLogo }
           description='Logo do CSS'
         />
-        <Card
+        <CardSkill
           text='JavaScript'
           image={ JavaScriptLogo }
           description='Logo do JavaScript'
         />
-        <Card
+        <CardSkill
           text='TypeScript'
           image={ TypeScriptLogo }
           description='Logo do TypeScript'
         />
-        <Card
+        <CardSkill
           text='Jest'
           image={ JestLogo }
           description='Logo do Jest'
         />
-        <Card
+        <CardSkill
           text='React'
           image={ ReactLogo }
           description='Logo do React'
         />
-        {/* <Card
+        {/* <CardSkill
           text='RTL'
           image={ DockerLogo }
           description='Logo do Docker'
         /> */}
-        <Card
+        <CardSkill
           text='Redux'
           image={ ReduxLogo }
           description='Logo do Redux'
         />
-        <Card
+        <CardSkill
           text='Docker'
           image={ DockerLogo }
           description='Logo do Docker'
         />
-        <Card
+        <CardSkill
           text='MySQL'
           image={ MySQLLogo }
           description='Logo do MySQL'
         />
-        <Card
+        <CardSkill
           text='Node.js'
           image={ NodejsLogo }
           description='Logo do Node.js'
         />
-        <Card
+        <CardSkill
           text='Express.js'
           image={ ExpressjsLogo }
           description='Logo do Express.js'
         />
-        <Card
+        <CardSkill
           text='Mocha'
           image={ MochaLogo }
           description='Logo do Mocha'
         />
-        {/* <Card
+        {/* <CardSkill
           text='Sinon'
           image={ ExpressjsLogo }
           description='Logo do Express.js'
         /> */}
-        {/* <Card
+        {/* <CardSkill
           text='Chai'
           image={ ExpressjsLogo }
           description='Logo do Express.js'
         /> */}
-        <Card
+        <CardSkill
           text='MongoDB'
           image={ MongoDBLogo }
           description='Logo do MongoDB'
         />
-        {/* <Card
+        {/* <CardSkill
           text='Mongoose'
           image={ DockerLogo }
           description='Logo do Docker'
         /> */}
-        <Card
+        <CardSkill
           text='Python'
           image={ PythonLogo }
           description='Logo do Python'
         />
-        <Card
+        <CardSkill
           text='Pytest'
           image={ PytestLogo }
           description='Logo do Pytest'

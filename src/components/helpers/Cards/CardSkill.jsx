@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { PStyled, ImageSkillStyled, MainStyled } from './styles';
 
-function Card(props) {
+function CardSkill(props) {
   const { text, image, description } = props;
 
   return (
@@ -12,10 +12,10 @@ function Card(props) {
   )
 }
 
-Card.propTypes = {
+CardSkill.propTypes = {
   text: PropTypes.string,
   image: PropTypes.string,
   description: PropTypes.string
 };
 
-export default Card;
+export default CardSkill;
