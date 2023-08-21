@@ -1,4 +1,5 @@
 import { FooterStyled, ImageStyled } from './styles.jsx';
+import CardLink from '../helpers/Cards/CardLink.jsx';
 import GitHubLogo from '../../images/social/github.png';
 import GmailLogo from '../../images/social/gmail.png';
 import LinkedinLogo from '../../images/social/linkedin.png';
@@ -17,22 +18,26 @@ function Footer() {
 
   return (
     <FooterStyled>
-      <section>
-        <p>GitHub</p>
-        <a href={ linkToGitHub } target="_blank" rel="noopener noreferrer">{ githubLogo }</a>
-      </section>
-      <section>
-        <p>Linkedin</p>
-        <a href={ linkToLinkedin } target="_blank" rel="noopener noreferrer">{ linkedinLogo }</a>
-      </section>
-      <section>
-        <p>Email</p>
-        <a href={ linkToGmail } rel="noopener noreferrer">{ gmailLogo }</a>
-      </section>
-      <section>
-        <p>Instagram</p>
-        <a href={ linkToInstagram } target="_blank" rel="noopener noreferrer">{ instagramLogo }</a>
-      </section>
+      <CardLink
+        text='Github'
+        link={ linkToGitHub }
+        image={ githubLogo }
+      />
+      <CardLink
+        text='Linkedin'
+        link={ linkToLinkedin }
+        image={ linkedinLogo }
+      />
+      <CardLink
+        text='Gmail'
+        link={ linkToGmail }
+        image={ gmailLogo }
+      />
+      <CardLink
+        text='Instagram'
+        link={ linkToInstagram }
+        image={ instagramLogo }
+      />
     </FooterStyled>
   )
 }

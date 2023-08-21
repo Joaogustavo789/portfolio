@@ -1,6 +1,7 @@
 import Button from "../helpers/Buttons/Button";
 import { useHistory } from 'react-router-dom';
-import { HeaderStyled } from './styles.jsx';
+import { ImageHeaderStyled, HeaderStyled } from './styles.jsx';
+import PersonalPhoto from '../../images/joao.jpeg'
 
 function Header() {
   const history = useHistory();
@@ -23,6 +24,8 @@ function Header() {
 
   return (
     <HeaderStyled>
+      <ImageHeaderStyled src={ PersonalPhoto } alt="" />
+
        <Button
         click={ handleHome }
         text="Inicio" 
