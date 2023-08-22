@@ -1,4 +1,4 @@
-import { FooterStyled, ImageStyled } from './styles.jsx';
+import { FooterStyled, H1Styled, DivSocialStyled, ImageStyled } from './styles.jsx';
 import CardLink from '../helpers/Cards/CardLink.jsx';
 import GitHubLogo from '../../images/social/github.png';
 import GmailLogo from '../../images/social/gmail.png';
@@ -18,26 +18,29 @@ function Footer() {
 
   return (
     <FooterStyled>
-      <CardLink
-        text='Github'
-        link={ linkToGitHub }
-        image={ githubLogo }
-      />
-      <CardLink
-        text='Linkedin'
-        link={ linkToLinkedin }
-        image={ linkedinLogo }
-      />
-      <CardLink
-        text='Gmail'
-        link={ linkToGmail }
-        image={ gmailLogo }
-      />
-      <CardLink
-        text='Instagram'
-        link={ linkToInstagram }
-        image={ instagramLogo }
-      />
+      <H1Styled>Contatos</H1Styled>
+      <DivSocialStyled>
+        <CardLink
+          text='Github'
+          link={ linkToGitHub }
+          image={ githubLogo }
+        />
+        <CardLink
+          text='Linkedin'
+          link={ linkToLinkedin }
+          image={ linkedinLogo }
+        />
+        <CardLink
+          text='Gmail'
+          link={ linkToGmail }
+          image={ gmailLogo }
+        />
+        <CardLink
+          text='Instagram'
+          link={ linkToInstagram }
+          image={ instagramLogo }
+        />
+      </DivSocialStyled>
     </FooterStyled>
   )
 }

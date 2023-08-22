@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
-export const ButtonStyled = styled.button `
+const ButtonStyled = styled.button `
   background-color: transparent;
   border: none;
   border: 4px solid rgb(23, 37, 84);
-
 
   &:hover {
     border-color: white;
@@ -15,8 +14,7 @@ export const ButtonStyled = styled.button `
   }
 `
 
-// rgb(2, 44, 34);
-export const PtextStyled = styled.p `
+const PtextStyled = styled.p `
   color: white;
   font-family: 'Arsenal', sans-serif;
   font-size: 2rem;
@@ -29,3 +27,8 @@ export const PtextStyled = styled.p `
     -2px 2px 0 rgb(2, 44, 34),
      2px 2px 0 rgb(2, 44, 34);
 `
+
+export {
+  ButtonStyled,
+  PtextStyled
+}

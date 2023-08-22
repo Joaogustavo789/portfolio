@@ -1,17 +1,30 @@
 import styled from 'styled-components';
 
-export const MainStyled = styled.main `
+const MainStyled = styled.main `
   border: 2px solid blue;
 `
 
-export const PStyled = styled.p `
+const DivStyled = styled.div `
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+const PStyled = styled.p `
   font-family: 'Roboto';
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
 `
 
-export const ImageSkillStyled = styled.img `
+const ImageSkillStyled = styled.img `
   height: 100px;
   margin-bottom: 10px;
 `
+
+export {
+  MainStyled,
+  DivStyled,
+  PStyled,
+  ImageSkillStyled
+}

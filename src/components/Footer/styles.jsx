@@ -1,13 +1,30 @@
 import styled from 'styled-components';
 
-export const FooterStyled = styled.footer `
+const FooterStyled = styled.footer `
   background-color: rgb(23, 37, 84);
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 `
 
-export const ImageStyled = styled.img `
+const H1Styled = styled.h1 `
+  color: white;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.24rem;
+  text-transform: uppercase;
+  padding: 8px;
+`
+
+const DivSocialStyled = styled.div `
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+`
+
+const ImageStyled = styled.img `
   height: 70px;
   margin-bottom: 10px;
 
@@ -17,11 +34,18 @@ export const ImageStyled = styled.img `
   }
 `
 
-export const PtextFooterStyled = styled.p `
+const PtextFooterStyled = styled.p `
   color: white;
   font-family: 'Arsenal', sans-serif;
   font-size: 1rem;
-  font-weight: 700;
   letter-spacing: 0.24rem;
   text-transform: uppercase;
 `
+
+export {
+  FooterStyled,
+  H1Styled,
+  DivSocialStyled,
+  ImageStyled,
+  PtextFooterStyled
+}

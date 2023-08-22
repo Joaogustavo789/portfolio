@@ -1,14 +1,15 @@
 import PropTypes from 'prop-types';
 import { PtextFooterStyled } from '../../Footer/styles';
+import { DivStyled } from './styles';
 
 function CardLink(props) {
   const { text, link, image } = props;
 
   return (
-      <section>
-        <PtextFooterStyled>{ text }</PtextFooterStyled>
+      <DivStyled>
         <a href={ link } target="_blank" rel="noopener noreferrer">{ image }</a>
-      </section>
+        <PtextFooterStyled>{ text }</PtextFooterStyled>
+      </DivStyled>
   )
 }
 

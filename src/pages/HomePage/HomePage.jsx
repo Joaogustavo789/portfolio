@@ -1,15 +1,21 @@
 import Header from "../../components/Header/Header";
 import Footer from '../../components/Footer/Footer';
+import { ButtonCVStyled, DivHomeStyled, PtextHomeStyled, PButtonStyled } from "./styles";
 
 function HomePage() {
+  // const downloadCV = () => {
+
+  // }
+
   return (
-    <main>
+    <DivHomeStyled>
       <Header />
-      <p>Olá, meu nome é João Gustavo!</p>
-      <p>Sou Desenvolvedor Full-Stack!</p>
-      <p>Baixar CV</p>
+        <PtextHomeStyled>Olá, meu nome é João Gustavo!</PtextHomeStyled>
+        <PtextHomeStyled>Sou Desenvolvedor Full-Stack!</PtextHomeStyled>
+        <PtextHomeStyled>Formado pela Trybe!</PtextHomeStyled>
+        <ButtonCVStyled type='button'><PButtonStyled>Baixar CV</PButtonStyled></ButtonCVStyled>
       <Footer />
-    </main>
+    </DivHomeStyled>
   )
 }
 
