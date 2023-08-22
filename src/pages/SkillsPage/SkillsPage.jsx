@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-import CardSkill from "../../components/helpers/Cards/CardSkill";
+import CardSkill from "../../components/helpers/Cards/CardSkill/CardSkill";
 import Footer from '../../components/Footer/Footer';
 import GitLogo from '../../images/assets/git.svg';
 import GitHubLogo from '../../images/assets/github.svg';

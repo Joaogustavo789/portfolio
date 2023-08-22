@@ -34,18 +34,9 @@ const ImageStyled = styled.img `
   }
 `
 
-const PtextFooterStyled = styled.p `
-  color: white;
-  font-family: 'Arsenal', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 0.24rem;
-  text-transform: uppercase;
-`
-
 export {
   FooterStyled,
   H1Styled,
   DivSocialStyled,
-  ImageStyled,
-  PtextFooterStyled
+  ImageStyled
 }

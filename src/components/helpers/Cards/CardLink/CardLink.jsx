@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
-import { PtextFooterStyled } from '../../Footer/styles';
-import { DivStyled } from './styles';
+import { DivStyled, PtextFooterStyled } from './styles';
 
 function CardLink(props) {
   const { text, link, image } = props;

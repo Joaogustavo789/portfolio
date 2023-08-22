@@ -1,13 +1,7 @@
 import styled from 'styled-components';
 
-const MainStyled = styled.main `
-  border: 2px solid blue;
-`
-
 const DivStyled = styled.div `
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: 2px solid red;
 `
 
 const PStyled = styled.p `
@@ -23,7 +17,6 @@ const ImageSkillStyled = styled.img `
 `
 
 export {
-  MainStyled,
   DivStyled,
   PStyled,
   ImageSkillStyled

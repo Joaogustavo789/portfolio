@@ -1,6 +1,6 @@
 import Header from "../../components/Header/Header";
 import Footer from '../../components/Footer/Footer';
-import CardTypeProject from "../../components/helpers/Cards/CardTypeProject";
+import CardTypeProject from "../../components/helpers/Cards/CardTypeProject/CardTypeProject";
 import { useHistory } from 'react-router-dom';
 
 function ProjectsPage() {

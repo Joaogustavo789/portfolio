@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
-import { PStyled, ImageSkillStyled, MainStyled } from './styles';
+import { DivStyled, ImageSkillStyled, PStyled  } from './styles';
 
 function CardSkill(props) {
   const { text, image, description } = props;
 
   return (
-    <MainStyled>
+    <DivStyled>
       <PStyled>{ text }</PStyled>
       <ImageSkillStyled src={ image } alt={ description } />
-    </MainStyled>
+    </DivStyled>
   )
 }
 

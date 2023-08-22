@@ -1,6 +1,6 @@
 import Header from "../../../components/Header/Header";
 import Footer from '../../../components/Footer/Footer';
-import CardProject from "../../../components/helpers/Cards/CardProject";
+import CardProject from "../../../components/helpers/Cards/CardProject/CardProject";
 
 function Frontend() {
   return (

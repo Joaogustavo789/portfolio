@@ -1,5 +1,5 @@
 import { FooterStyled, H1Styled, DivSocialStyled, ImageStyled } from './styles.jsx';
-import CardLink from '../helpers/Cards/CardLink.jsx';
+import CardLink from '../helpers/Cards/CardLink/CardLink.jsx';
 import GitHubLogo from '../../images/social/github.png';
 import GmailLogo from '../../images/social/gmail.png';
 import LinkedinLogo from '../../images/social/linkedin.png';
