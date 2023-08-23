@@ -11,8 +11,8 @@ const FooterStyled = styled.footer `
 const H1Styled = styled.h1 `
   color: white;
   font-family: 'Arsenal', sans-serif;
-  font-size: 3rem;
-  letter-spacing: 0.24rem;
+  font-size: 2.45rem;
+  letter-spacing: 0.10rem;
   text-transform: uppercase;
   padding: 8px;
 `
@@ -22,6 +22,7 @@ const DivSocialStyled = styled.div `
   align-items: center;
   justify-content: space-between;
   width: 60%;
+  padding: 8px;
 `
 
 const ImageStyled = styled.img `

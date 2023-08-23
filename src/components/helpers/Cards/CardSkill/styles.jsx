@@ -1,19 +1,33 @@
 import styled from 'styled-components';
 
 const DivStyled = styled.div `
-  border: 2px solid red;
+  border-radius: 10px;
+  border-bottom: 3px solid rgb(56, 189, 248);
+  background-color: rgb(55, 65, 81);
+  width: 10%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    scale: 1.1;
+  }
 `
 
 const PStyled = styled.p `
-  font-family: 'Roboto';
+  color: white;
+  font-family: 'Arsenal';
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
 `
 
 const ImageSkillStyled = styled.img `
-  height: 100px;
-  margin-bottom: 10px;
+  height: auto;
+  width: 60%;
+  margin-top: 10px;
 `
 
 export {

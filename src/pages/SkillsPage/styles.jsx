@@ -1,8 +1,16 @@
 import styled from 'styled-components';
 
-const MainStyled = styled.main `
-  border: 2px solid blue;
+const SectionStyled = styled.section `
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  padding-block: 20px;
+  margin: auto;
+  width: 90%;
 `
+
 export {
-  MainStyled
+  SectionStyled
 }

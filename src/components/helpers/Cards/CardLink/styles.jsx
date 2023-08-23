@@ -17,7 +17,7 @@ const PtextFooterStyled = styled.p `
   color: white;
   font-family: 'Arsenal', sans-serif;
   font-size: 1rem;
-  letter-spacing: 0.24rem;
+  letter-spacing: 0.14rem;
   text-transform: uppercase;
 `
 
