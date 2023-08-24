@@ -24,15 +24,18 @@ const PtextHomeStyled = styled.p `
   text-transform: uppercase;
 `
 // rgb(49, 46, 129)
-const ButtonCVStyled = styled.button `
+const LinkCVStyled = styled.a `
   background-color: #0ea5e9;
   border-radius: 40px;
   border: 1px solid #0ea5e9;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   height: 50px;
   width: 200px;
   margin-top: 20px;
-
 
   color: white;
   font-family: 'Arsenal', sans-serif;
@@ -57,5 +60,5 @@ export {
   DivmainStyled,
   DivHomeStyled,
   PtextHomeStyled,
-  ButtonCVStyled
+  LinkCVStyled
 }

@@ -4,9 +4,10 @@ function CardTypeProject(props) {
   const { click, text } = props;
 
   return (
-    <main>
+    <div>
+      <img src="" alt="" />
       <button type='button' onClick={ click }>{ text }</button>
-    </main>
+    </div>
   )
 }
 

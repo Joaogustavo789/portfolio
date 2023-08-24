@@ -1,12 +1,9 @@
 import Header from "../../components/Header/Header";
 import Footer from '../../components/Footer/Footer';
-import { DivmainStyled, DivHomeStyled, PtextHomeStyled, ButtonCVStyled } from "./styles";
+import { DivmainStyled, DivHomeStyled, PtextHomeStyled, LinkCVStyled } from "./styles";
+import DownloadCV from '/Currículo_João_Gustavo_Full-Stack.pdf';
 
 function HomePage() {
-  // const downloadCV = () => {
-
-  // }
-
   return (
     <DivmainStyled>
       <Header />
@@ -14,7 +11,12 @@ function HomePage() {
             <PtextHomeStyled>Olá, meu nome é João Gustavo!</PtextHomeStyled>
             <PtextHomeStyled>Sou Desenvolvedor Full-Stack!</PtextHomeStyled>
             <PtextHomeStyled>Formado pela Trybe!</PtextHomeStyled>
-            <ButtonCVStyled type='button'>Baixar CV</ButtonCVStyled>
+            <LinkCVStyled 
+              href={ DownloadCV } 
+              target="_blank" 
+              rel="noreferrer">
+                Baixar CV
+            </LinkCVStyled>
         </DivHomeStyled>
       <Footer />
     </DivmainStyled>
