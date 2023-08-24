@@ -12,6 +12,7 @@ import RTLLogo from '../../images/assets/rtl.svg';
 import ReduxLogo from '../../images/assets/redux.svg';
 import DockerLogo from '../../images/assets/docker.svg';
 import MySQLLogo from '../../images/assets/mysql.svg';
+import SequelizeLogo from '../../images/assets/sequelize.svg';
 import NodejsLogo from '../../images/assets/nodejs.svg';
 import ExpressjsLogo from '../../images/assets/expressjs.svg';
 import MochaLogo from '../../images/assets/mocha.svg';
@@ -87,6 +88,11 @@ function SkillsPage() {
             <CardSkill
               text='MySQL'
               image={ MySQLLogo }
+              description='Logo do MySQL'
+            />
+            <CardSkill
+              text='Sequelize.js'
+              image={ SequelizeLogo }
               description='Logo do MySQL'
             />
             <CardSkill

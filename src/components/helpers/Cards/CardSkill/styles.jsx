@@ -13,6 +13,7 @@ const DivStyled = styled.div `
   align-items: center;
 
   &:hover {
+    cursor: pointer;
     scale: 1.1;
   }
 `

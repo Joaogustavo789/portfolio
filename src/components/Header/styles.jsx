@@ -10,7 +10,6 @@ const ImageHeaderStyled = styled.img `
   height: 100px;
 
   &:hover {
-    cursor: pointer;
     scale: 1.1;
   }
 `
