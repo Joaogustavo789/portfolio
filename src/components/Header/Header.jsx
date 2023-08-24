@@ -1,7 +1,7 @@
 import Button from "../helpers/Buttons/Button";
 import { useHistory } from 'react-router-dom';
 import { ImageHeaderStyled, HeaderStyled } from './styles.jsx';
-import PersonalPhoto from '../../images/joao.jpeg'
+import PersonalPhoto from '../../images/assets/joao.jpeg';
 
 function Header() {
   const history = useHistory();
