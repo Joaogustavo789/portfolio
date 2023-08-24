@@ -2,23 +2,26 @@ import Header from "../../components/Header/Header";
 import CardSkill from "../../components/helpers/Cards/CardSkill/CardSkill";
 import Footer from '../../components/Footer/Footer';
 import GitLogo from '../../images/assets/git.svg';
-// import GitLogo from '../../images/assets/git.svg';
 import GitHubLogo from '../../images/assets/github.svg';
 import HTMLLogo from '../../images/assets/html.svg';
 import CSSLogo from '../../images/assets/css.svg';
 import JavaScriptLogo from '../../images/assets/javascript.svg';
 import JestLogo from '../../images/assets/jest.svg';
 import ReactLogo from '../../images/assets/react.svg';
+import RTLLogo from '../../images/assets/rtl.svg';
 import ReduxLogo from '../../images/assets/redux.svg';
 import DockerLogo from '../../images/assets/docker.svg';
 import MySQLLogo from '../../images/assets/mysql.svg';
 import NodejsLogo from '../../images/assets/nodejs.svg';
 import ExpressjsLogo from '../../images/assets/expressjs.svg';
+import MochaLogo from '../../images/assets/mocha.svg';
+import SinonLogo from '../../images/assets/sinon.png';
+import ChaiLogo from '../../images/assets/chai.svg';
 import TypeScriptLogo from '../../images/assets/typescript.svg';
 import MongoDBLogo from '../../images/assets/mongodb.svg';
+import MongooseLogo from '../../images/assets/mongoose.png';
 import PythonLogo from '../../images/assets/python.svg';
 import PytestLogo from '../../images/assets/pytest.svg';
-import MochaLogo from '../../images/assets/mocha.svg';
 import { SectionStyled } from "./styles";
 
 function SkillsPage() {
@@ -66,11 +69,11 @@ function SkillsPage() {
               image={ ReactLogo }
               description='Logo do React'
             />
-            {/* <CardSkill
+            <CardSkill
               text='RTL'
-              image={ DockerLogo }
+              image={ RTLLogo }
               description='Logo do Docker'
-            /> */}
+            />
             <CardSkill
               text='Redux'
               image={ ReduxLogo }
@@ -101,26 +104,26 @@ function SkillsPage() {
               image={ MochaLogo }
               description='Logo do Mocha'
             />
-            {/* <CardSkill
+            <CardSkill
               text='Sinon'
-              image={ ExpressjsLogo }
+              image={ SinonLogo }
               description='Logo do Express.js'
-            /> */}
-            {/* <CardSkill
+            />
+            <CardSkill
               text='Chai'
-              image={ ExpressjsLogo }
+              image={ ChaiLogo }
               description='Logo do Express.js'
-            /> */}
+            />
             <CardSkill
               text='MongoDB'
               image={ MongoDBLogo }
               description='Logo do MongoDB'
             />
-            {/* <CardSkill
+            <CardSkill
               text='Mongoose'
-              image={ DockerLogo }
+              image={ MongooseLogo }
               description='Logo do Docker'
-            /> */}
+            />
             <CardSkill
               text='Python'
               image={ PythonLogo }

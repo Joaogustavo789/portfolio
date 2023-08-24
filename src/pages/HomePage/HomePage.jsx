@@ -1,6 +1,6 @@
 import Header from "../../components/Header/Header";
 import Footer from '../../components/Footer/Footer';
-import { ButtonCVStyled, DivHomeStyled, PtextHomeStyled, PButtonStyled } from "./styles";
+import { DivmainStyled, DivHomeStyled, PtextHomeStyled, ButtonCVStyled } from "./styles";
 
 function HomePage() {
   // const downloadCV = () => {
@@ -8,14 +8,16 @@ function HomePage() {
   // }
 
   return (
-    <DivHomeStyled>
+    <DivmainStyled>
       <Header />
-        <PtextHomeStyled>Olá, meu nome é João Gustavo!</PtextHomeStyled>
-        <PtextHomeStyled>Sou Desenvolvedor Full-Stack!</PtextHomeStyled>
-        <PtextHomeStyled>Formado pela Trybe!</PtextHomeStyled>
-        <ButtonCVStyled type='button'><PButtonStyled>Baixar CV</PButtonStyled></ButtonCVStyled>
+        <DivHomeStyled>
+            <PtextHomeStyled>Olá, meu nome é João Gustavo!</PtextHomeStyled>
+            <PtextHomeStyled>Sou Desenvolvedor Full-Stack!</PtextHomeStyled>
+            <PtextHomeStyled>Formado pela Trybe!</PtextHomeStyled>
+            <ButtonCVStyled type='button'>Baixar CV</ButtonCVStyled>
+        </DivHomeStyled>
       <Footer />
-    </DivHomeStyled>
+    </DivmainStyled>
   )
 }
 
