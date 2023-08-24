@@ -4,6 +4,7 @@ const ButtonStyled = styled.button `
   background-color: transparent;
   border: none;
   border: 4px solid rgb(23, 37, 84);
+  padding: 5px 12px;
 
   &:hover {
     border-color: white;
@@ -17,7 +18,7 @@ const ButtonStyled = styled.button `
 const PtextStyled = styled.p `
   color: white;
   font-family: 'Arsenal', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.24rem;
   text-transform: uppercase;
