@@ -2,11 +2,18 @@ import Header from "../../../../components/Header/Header";
 import Footer from '../../../../components/Footer/Footer';
 import CardProject from "../../../../components/helpers/Cards/CardProject/CardProject";
 import { SectionStyled } from "./styles";
+// import { useState } from "react";
 
 function Fundamentos() {
+  // const [hover, setHover] = useState(true);
+
   return (
     <>
       <Header />
+      {/* {
+// onmouseenter
+// onmouseleave
+      } */}
         <SectionStyled>
           <CardProject
             project='Lessons Learned' 

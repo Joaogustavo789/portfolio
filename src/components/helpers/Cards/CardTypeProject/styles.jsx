@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ImageTypeProject = styled.img `
-  height: 100px;
+  height: 150px;
 `
 
 const DivStyled = styled.div `
@@ -13,6 +13,7 @@ const DivStyled = styled.div `
   justify-content: center;
   align-items: center;
   padding: 8px;
+  width: 250px;
 
   &:hover {
     border-color: rgb(56, 189, 248);
