@@ -5,11 +5,14 @@ const ImageTypeProject = styled.img `
 `
 
 const DivStyled = styled.div `
+  background-color: rgb(55, 65, 81);
   border: 1px solid rgb(31, 41, 55);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 8px;
 
   &:hover {
     border-color: rgb(56, 189, 248);

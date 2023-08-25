@@ -1,97 +1,98 @@
 import Header from "../../../../components/Header/Header";
 import Footer from '../../../../components/Footer/Footer';
 import CardProject from "../../../../components/helpers/Cards/CardProject/CardProject";
+import { SectionStyled } from "./styles";
 
 function Backend() {
   return (
     <>
       <Header />
-        <div>
+        <SectionStyled>
           <CardProject
             project='Docker Todo List' 
             image=''
             description=''
-            click=''
+            click='https://github.com/Joaogustavo789/Docker-Todo-List'
             text='Repositório'
           />
           <CardProject
             project='All For One' 
             image=''
             description=''
-            click=''
+            click='https://github.com/Joaogustavo789/All-For-One'
             text='Repositório'
           />
           <CardProject
             project='One For All' 
             image=''
             description=''
-            click=''
+            click='https://github.com/Joaogustavo789/One-For-All'
             text='Repositório'
           />
           <CardProject
             project='Talker Manager' 
             image=''
             description=''
-            click=''
+            click='https://github.com/Joaogustavo789/Talker-Manager'
             text='Repositório'
           />
-          <CardProject
+          {/* <CardProject
             project='Store Manager' 
             image=''
             description=''
             click=''
             text='Repositório'
-          />
-          <CardProject
+          /> */}
+          {/* <CardProject
             project='Blogs Api' 
             image=''
             description=''
             click=''
             text='Repositório'
-          />
+          /> */}
           <CardProject
-            project='Trybesmith' 
+            project='The Warrior Store' 
             image=''
             description=''
-            click=''
+            click='https://github.com/Joaogustavo789/The-Warrior-Store'
             text='Repositório'
           />
-          <CardProject
+          {/* <CardProject
             project='Trybers and Dragons' 
             image=''
             description=''
             click=''
             text='Repositório'
-          />
+          /> */}
           <CardProject
-            project='Trybe Futebol Clube' 
+            project='Football League' 
             image=''
             description=''
-            click=''
+            click='https://github.com/Joaogustavo789/Football-League'
             text='Repositório'
           />
           <CardProject
             project='Commerce' 
             image=''
             description=''
-            click=''
+            click='https://github.com/Joaogustavo789/Commerce-Mongo'
             text='Repositório'
           />
           <CardProject
             project='Car Shop' 
             image=''
             description=''
-            click=''
+            click='https://github.com/Joaogustavo789/Car-Shop'
             text='Repositório'
           />
           <CardProject
             project='Delivery App' 
             image=''
             description=''
-            click=''
+            click='https://github.com/Joaogustavo789/Delivery-App'
             text='Repositório'
           />
-        </div>
+        </SectionStyled>
       <Footer />
     </>
   )
