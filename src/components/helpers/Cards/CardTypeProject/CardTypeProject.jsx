@@ -1,17 +1,25 @@
 import PropTypes from 'prop-types';
+import { DivStyled, ImageTypeProject, ButtonTypeProject } from './styles';
 
 function CardTypeProject(props) {
-  const { click, text } = props;
+  const { image, description, click, text } = props;
 
   return (
-    <div>
-      <img src="" alt="" />
-      <button type='button' onClick={ click }>{ text }</button>
-    </div>
+    <DivStyled>
+      <ButtonTypeProject 
+        type='button' 
+        onClick={ click }
+      >
+      <ImageTypeProject src={ image } alt={ description } />
+      { text }
+      </ButtonTypeProject>
+    </DivStyled>
   )
 }
 
 CardTypeProject.propTypes = {
+  image: PropTypes.string,
+  description: PropTypes.string,
   click: PropTypes.func,
   text: PropTypes.string
 };

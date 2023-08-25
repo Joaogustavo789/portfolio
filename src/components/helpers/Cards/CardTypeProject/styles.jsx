@@ -1,23 +1,40 @@
 import styled from 'styled-components';
 
+const ImageTypeProject = styled.img `
+  height: 100px;
+`
+
 const DivStyled = styled.div `
-  border-radius: 10px;
-  border-bottom: 3px solid rgb(56, 189, 248);
-  background-color: rgb(55, 65, 81);
-  /* box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25); */
-  width: 10%;
-  padding: 8px;
+  border: 1px solid rgb(31, 41, 55);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   &:hover {
-    cursor: pointer;
+    border-color: rgb(56, 189, 248);
     scale: 1.1;
   }
 `
 
+const ButtonTypeProject = styled.button `
+  background: none;
+  border: none;
+  /* border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.10rem;
+  text-transform: uppercase;
+`
+
 export {
-  DivStyled
+  ImageTypeProject,
+  DivStyled,
+  ButtonTypeProject
 }

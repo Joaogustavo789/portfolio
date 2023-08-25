@@ -9,6 +9,7 @@ import JavaScriptLogo from '../../images/svg/javascript.svg';
 import JestLogo from '../../images/svg/jest.svg';
 import ReactLogo from '../../images/svg/react.svg';
 import RTLLogo from '../../images/svg/rtl.svg';
+// import StyledComponentsLogo from '../../images/svg/styled-components.png';
 import ReduxLogo from '../../images/svg/redux.svg';
 import DockerLogo from '../../images/svg/docker.svg';
 import MySQLLogo from '../../images/svg/mysql.svg';
@@ -73,8 +74,13 @@ function SkillsPage() {
             <CardSkill
               text='RTL'
               image={ RTLLogo }
-              description='Logo do Docker'
+              description='Logo do RTL'
             />
+            {/* <CardSkill
+              text='Styled Components'
+              image={ StyledComponentsLogo }
+              description='Logo do Styled Components'
+            /> */}
             <CardSkill
               text='Redux'
               image={ ReduxLogo }
@@ -93,7 +99,7 @@ function SkillsPage() {
             <CardSkill
               text='Sequelize.js'
               image={ SequelizeLogo }
-              description='Logo do MySQL'
+              description='Logo do Sequelize.js'
             />
             <CardSkill
               text='Node.js'
@@ -113,12 +119,12 @@ function SkillsPage() {
             <CardSkill
               text='Sinon'
               image={ SinonLogo }
-              description='Logo do Express.js'
+              description='Logo do Sinon'
             />
             <CardSkill
               text='Chai'
               image={ ChaiLogo }
-              description='Logo do Express.js'
+              description='Logo do Chai'
             />
             <CardSkill
               text='MongoDB'
@@ -128,7 +134,7 @@ function SkillsPage() {
             <CardSkill
               text='Mongoose'
               image={ MongooseLogo }
-              description='Logo do Docker'
+              description='Logo do Mongoose'
             />
             <CardSkill
               text='Python'
