@@ -20,7 +20,6 @@ const DivStyled = styled.div `
 const ButtonTypeProject = styled.button `
   background: none;
   border: none;
-  /* border-radius: 10px; */
   display: flex;
   flex-direction: column;
   justify-content: center;

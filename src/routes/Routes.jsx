@@ -3,10 +3,10 @@ import HomePage from '../pages/HomePage/HomePage';
 import AboutPage from '../pages/AboutPage/AboutPage';
 import ProjectsPage from '../pages/ProjectsPage/ProjectsPage';
 import SkillsPage from '../pages/SkillsPage/SkillsPage';
-import Fundamentos from '../pages/ProjectsPage/Projects/Fundamentos';
-import Frontend from '../pages/ProjectsPage/Projects/Frontend';
-import Backend from '../pages/ProjectsPage/Projects/Backend';
-import ComputerScience from '../pages/ProjectsPage/Projects/ComputerScience';
+import Fundamentos from '../pages/ProjectsPage/Projects/Fundamentos/Fundamentos';
+import Frontend from '../pages/ProjectsPage/Projects/Front-End/Frontend';
+import Backend from '../pages/ProjectsPage/Projects/Back-End/Backend';
+import ComputerScience from '../pages/ProjectsPage/Projects/Computer-Science/ComputerScience';
 
 function Routes() {
   return (

@@ -1,14 +1,21 @@
 import PropTypes from 'prop-types';
+import { DivStyled, PtextProject, LinkProject } from './styles';
 
 function CardProject(props) {
   const { project, image, description, click, text } = props;
 
   return (
-    <main>
-      <p>{ project }</p>
+    <DivStyled>
+      <PtextProject>{ project }</PtextProject>
       <img src={ image } alt={ description } />
-      <button type='button' onClick={ click }>{ text }</button>
-    </main>
+      <LinkProject
+        href={ click }
+        target="_blank" 
+        rel="noopener noreferrer" 
+      >
+        { text }
+      </LinkProject>
+    </DivStyled>
   )
 }
 
