@@ -1,16 +1,17 @@
 import Header from "../../../../components/Header/Header";
 import Footer from '../../../../components/Footer/Footer';
 import CardProject from "../../../../components/helpers/Cards/CardProject/CardProject";
-import { SectionStyled } from "./styles";
+import { DivmainStyled, SectionStyled } from "./styles";
 
 function Backend() {
   return (
-    <>
+    <DivmainStyled>
       <Header />
         <SectionStyled>
           <CardProject
             project='Docker Todo List' 
             image=''
+            alt=''
             description=''
             click='https://github.com/Joaogustavo789/Docker-Todo-List'
             text='Repositório'
@@ -18,6 +19,7 @@ function Backend() {
           <CardProject
             project='All For One' 
             image=''
+            alt=''
             description=''
             click='https://github.com/Joaogustavo789/All-For-One'
             text='Repositório'
@@ -25,6 +27,7 @@ function Backend() {
           <CardProject
             project='One For All' 
             image=''
+            alt=''
             description=''
             click='https://github.com/Joaogustavo789/One-For-All'
             text='Repositório'
@@ -39,6 +42,7 @@ function Backend() {
           {/* <CardProject
             project='Store Manager' 
             image=''
+            alt=''
             description=''
             click=''
             text='Repositório'
@@ -46,6 +50,7 @@ function Backend() {
           {/* <CardProject
             project='Blogs Api' 
             image=''
+            alt=''
             description=''
             click=''
             text='Repositório'
@@ -53,6 +58,7 @@ function Backend() {
           <CardProject
             project='The Warrior Store' 
             image=''
+            alt=''
             description=''
             click='https://github.com/Joaogustavo789/The-Warrior-Store'
             text='Repositório'
@@ -60,6 +66,7 @@ function Backend() {
           {/* <CardProject
             project='Trybers and Dragons' 
             image=''
+            alt=''
             description=''
             click=''
             text='Repositório'
@@ -67,6 +74,7 @@ function Backend() {
           <CardProject
             project='Football League' 
             image=''
+            alt=''
             description=''
             click='https://github.com/Joaogustavo789/Football-League'
             text='Repositório'
@@ -74,6 +82,7 @@ function Backend() {
           <CardProject
             project='Commerce' 
             image=''
+            alt=''
             description=''
             click='https://github.com/Joaogustavo789/Commerce-Mongo'
             text='Repositório'
@@ -81,6 +90,7 @@ function Backend() {
           <CardProject
             project='Car Shop' 
             image=''
+            alt=''
             description=''
             click='https://github.com/Joaogustavo789/Car-Shop'
             text='Repositório'
@@ -88,13 +98,14 @@ function Backend() {
           <CardProject
             project='Delivery App' 
             image=''
+            alt=''
             description=''
             click='https://github.com/Joaogustavo789/Delivery-App'
             text='Repositório'
           />
         </SectionStyled>
       <Footer />
-    </>
+    </DivmainStyled>
   )
 }
 

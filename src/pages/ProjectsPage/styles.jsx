@@ -1,16 +1,19 @@
 import styled from 'styled-components';
 
-const SectionStyled = styled.section `
-  min-height: 60vh;
+const DivmainStyled = styled.div `
+  min-height: 100vh;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+`
+
+const SectionStyled = styled.section `
+  display: flex;
   justify-content: center;
   gap: 2rem;
-  padding-block: 20px;
 `
 
 export {
+  DivmainStyled,
   SectionStyled
 }

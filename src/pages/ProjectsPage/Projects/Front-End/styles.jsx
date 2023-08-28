@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+const DivmainStyled = styled.div `
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`
+
 const SectionStyled = styled.section `
   display: flex;
   flex-wrap: wrap;
@@ -11,5 +18,6 @@ const SectionStyled = styled.section `
 `
 
 export {
+  DivmainStyled,
   SectionStyled
 }

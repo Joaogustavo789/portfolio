@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const DivStyled = styled.div `
-  /* border: 1px solid red; */
   border: 3px solid rgb(55, 65, 81);
   border-radius: 10px;
   display: flex;
@@ -9,11 +8,8 @@ const DivStyled = styled.div `
   justify-content: center;
   align-items: center;
   padding: 8px;
-
-  &:hover {
-    border-color: rgb(56, 189, 248);
-    scale: 1.1;
-  }
+  height: 100px;
+  width: 200px;
 `
 
 const PtextProject = styled.div `

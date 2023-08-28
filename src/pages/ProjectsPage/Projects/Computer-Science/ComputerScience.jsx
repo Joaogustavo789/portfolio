@@ -1,11 +1,11 @@
 import Header from "../../../../components/Header/Header";
 import Footer from '../../../../components/Footer/Footer';
 import CardProject from "../../../../components/helpers/Cards/CardProject/CardProject";
-import { SectionStyled } from "./styles";
+import { DivmainStyled, SectionStyled } from "./styles";
 
 function ComputerScience() {
   return (
-    <>
+    <DivmainStyled>
       <Header />
         <SectionStyled>
           {/* <CardProject
@@ -52,7 +52,7 @@ function ComputerScience() {
           /> */}
         </SectionStyled>
       <Footer />
-    </>
+    </DivmainStyled>
   )
 }
 

@@ -2,7 +2,7 @@ import Header from "../../components/Header/Header";
 import Footer from '../../components/Footer/Footer';
 import CardTypeProject from "../../components/helpers/Cards/CardTypeProject/CardTypeProject";
 import { useHistory } from 'react-router-dom';
-import { SectionStyled } from "./styles";
+import { DivmainStyled, SectionStyled } from "./styles";
 import FundamentosLogo from '../../images/work/fundamentos.png';
 import FrontendLogo from '../../images/work/frontend.png';
 import BackendLogo from '../../images/work/backend.png';
@@ -28,7 +28,7 @@ function ProjectsPage() {
   }
 
   return (
-    <>
+    <DivmainStyled>
       <Header />
         <SectionStyled>
           <CardTypeProject 
@@ -57,7 +57,7 @@ function ProjectsPage() {
           />
         </SectionStyled>
       <Footer />
-    </>
+    </DivmainStyled>
   )
 }
 
