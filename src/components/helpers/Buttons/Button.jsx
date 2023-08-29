@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import { ButtonStyled, PtextStyled } from './styles';
 import { useHistory } from 'react-router-dom';
+import { ButtonStyled, PtextStyled } from './styles';
 
 function Button(props) {
   const history = useHistory();
