@@ -3,7 +3,10 @@ import { DivStyled, PtextProject, LinkProject } from './styles';
 import { useState } from 'react';
 
 function CardProject(props) {
-  const { project, image, alt, description, click, text } = props;
+  const { project } = props;
+
+  const { title, image, alt, description, click, text } = project;
+  console.log(props);
 
   const [hover, setHover] = useState(true);
 
@@ -14,7 +17,7 @@ function CardProject(props) {
     >
       { hover ? (
           <div>
-            <PtextProject>{ project }</PtextProject>
+            <PtextProject>{ title }</PtextProject>
             <img src={ image } alt={ alt } />
           </div>
         ) : (
@@ -35,12 +38,16 @@ function CardProject(props) {
 }
 
 CardProject.propTypes = {
-  project: PropTypes.string,
-  image: PropTypes.string,
-  alt: PropTypes.string,
-  description: PropTypes.string,
-  click: PropTypes.func,
-  text: PropTypes.string
+  project: PropTypes.shape(
+    {
+      title: PropTypes.string,
+      image: PropTypes.string,
+      alt: PropTypes.string,
+      description: PropTypes.string,
+      click: PropTypes.func,
+      text: PropTypes.string
+    }
+  ),
 };
 
 export default CardProject;
