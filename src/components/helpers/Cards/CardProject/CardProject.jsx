@@ -6,7 +6,6 @@ function CardProject(props) {
   const { project } = props;
 
   const { title, image, alt, description, click, text } = project;
-  console.log(props);
 
   const [hover, setHover] = useState(true);
 

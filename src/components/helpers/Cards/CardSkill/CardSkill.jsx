@@ -2,7 +2,9 @@ import PropTypes from 'prop-types';
 import { DivStyled, ImageSkillStyled, PStyled  } from './styles';
 
 function CardSkill(props) {
-  const { text, image, description } = props;
+  const { skill } = props;
+
+  const { text, image, description } = skill;
 
   return (
     <DivStyled>
@@ -13,9 +15,11 @@ function CardSkill(props) {
 }
 
 CardSkill.propTypes = {
-  text: PropTypes.string,
-  image: PropTypes.string,
-  description: PropTypes.string
+  skill: PropTypes.shape({
+    text: PropTypes.string,
+    image: PropTypes.string,
+    description: PropTypes.string
+  })
 };
 
 export default CardSkill;
