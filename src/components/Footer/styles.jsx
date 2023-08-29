@@ -25,19 +25,8 @@ const DivSocialStyled = styled.div `
   padding: 8px;
 `
 
-const ImageStyled = styled.img `
-  height: 50px;
-  margin-bottom: 10px;
-
-  &:hover {
-    cursor: pointer;
-    scale: 1.1;
-  }
-`
-
 export {
   FooterStyled,
   H1Styled,
   DivSocialStyled,
-  ImageStyled
 }

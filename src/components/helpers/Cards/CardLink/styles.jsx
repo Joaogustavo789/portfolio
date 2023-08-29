@@ -21,8 +21,19 @@ const PtextFooterStyled = styled.p `
   text-transform: uppercase;
 `
 
+const ImageStyled = styled.img `
+  height: 50px;
+  margin-bottom: 10px;
+
+  &:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+`
+
 export {
   DivStyled,
   PStyled,
-  PtextFooterStyled
+  PtextFooterStyled,
+  ImageStyled
 }
