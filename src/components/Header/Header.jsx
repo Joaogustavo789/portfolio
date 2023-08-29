@@ -1,50 +1,20 @@
 import Button from "../helpers/Buttons/Button";
-import { useHistory } from 'react-router-dom';
 import { ImageHeaderStyled, HeaderStyled } from './styles.jsx';
 import PersonalPhoto from '../../images/assets/joao.jpeg';
+import { routers } from "../../mocks/routers";
 
 function Header() {
-  const history = useHistory();
-
-  const handleHome = () => {
-    history.push('/')
-  }
-
-  const handleAbout = () => {
-    history.push('/sobre-mim')
-  }
-
-  const handleSkills = () => {
-    history.push('/habilidades')
-  }
-
-  const handleProjects = () => {
-    history.push('/projetos')
-  }
-
   return (
     <HeaderStyled>
       <ImageHeaderStyled src={ PersonalPhoto } alt="" />
-
-       <Button
-        click={ handleHome }
-        text="Inicio" 
-      />
-
-      <Button
-        click={ handleAbout }
-        text="Sobre" 
-      />
-
-      <Button
-        click={ handleSkills }
-        text="Habilidades" 
-      />
-
-      <Button
-        click={ handleProjects }
-        text="Projetos" 
-      />
+      {
+        routers.map((route) => (
+          <Button
+            key={ route.id }
+            route={ route }
+         />
+        ))
+      }
     </HeaderStyled>
   )
 }
