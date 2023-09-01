@@ -8,8 +8,16 @@ function CardSkill(props) {
 
   return (
     <DivStyled>
-      <PStyled>{ text }</PStyled>
-      <ImageSkillStyled src={ image } alt={ description } />
+      <PStyled 
+        style={{ fontSize: (text === 'Styled Comp.') && '17px' }}
+      >
+        { text }
+      </PStyled>
+      <ImageSkillStyled 
+        src={ image } 
+        alt={ description }
+        style={{ height: (description === 'Logo do Chai') && '60px' }} 
+      />
     </DivStyled>
   )
 }

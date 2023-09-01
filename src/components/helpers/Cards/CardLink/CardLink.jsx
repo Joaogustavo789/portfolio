@@ -4,7 +4,7 @@ import { DivStyled, PtextFooterStyled, ImageStyled } from './styles';
 function CardLink(props) {
   const { contact } = props;
 
-  const { text, link, image } = contact;
+  const { text, link, image, alt } = contact;
 
   return (
       <DivStyled>
@@ -13,7 +13,7 @@ function CardLink(props) {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          <ImageStyled src={ image } alt="Logo do GitHub" />
+          <ImageStyled src={ image } alt={ alt } />
         </a>
         <PtextFooterStyled>{ text }</PtextFooterStyled>
       </DivStyled>
@@ -24,7 +24,8 @@ CardLink.propTypes = {
   contact: PropTypes.shape({
     text: PropTypes.string,
     link: PropTypes.string,
-    image: PropTypes.string
+    image: PropTypes.string,
+    alt: PropTypes.string
   })
 };
 

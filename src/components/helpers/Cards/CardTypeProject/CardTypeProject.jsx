@@ -15,8 +15,8 @@ function CardTypeProject(props) {
         type='button' 
         onClick={ () => history.push(click) }
       >
-      <ImageTypeProject src={ image } alt={ description } />
-      { text }
+        <ImageTypeProject src={ image } alt={ description } />
+        { text }
       </ButtonTypeProject>
     </DivStyled>
   )

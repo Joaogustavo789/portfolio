@@ -16,7 +16,7 @@ const DivStyled = styled.div `
   width: 250px;
 
   &:hover {
-    border-color: rgb(56, 189, 248);
+    border: 2px solid rgb(56, 189, 248);
     scale: 1.1;
   }
 `

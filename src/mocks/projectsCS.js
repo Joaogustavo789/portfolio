@@ -22,7 +22,7 @@ const projectsCS = [
   //   title: 'Tech News',
   //   image: '',
   //   alt: '',
-  //   description: 'OII',
+  //   description: 'Projeto que tem como objetivo apresentar os ensinamentos sobre raspagem de dados.',
   //   click: '',
   //   text: 'Repositório'
   // },
@@ -31,7 +31,7 @@ const projectsCS = [
     title: 'Algorithms',
     image: '',
     alt: '',
-    description: 'OII',
+    description: 'Projeto que tem como objetivo apresentar os ensinamentos sobre Algoritmos.',
     click: 'https://github.com/Joaogustavo789/Algorithms',
     text: 'Repositório'
   },
@@ -40,7 +40,7 @@ const projectsCS = [
     title: 'TING',
     image: '',
     alt: '',
-    description: 'OII',
+    description: 'Projeto que tem como objetivo apresentar os ensinamentos sobre Estruturas de Dados, mais especificamente Filas e Pilhas.',
     click: 'https://github.com/Joaogustavo789/Data-Structure',
     text: 'Repositório'
   },
@@ -49,7 +49,7 @@ const projectsCS = [
   //   title: 'Restaurant Orders',
   //   image: '',
   //   alt: '',
-  //   description: 'OII',
+  //   description: 'Projeto que tem como objetivo apresentar os ensinamentos de Pandas.',
   //   click: '',
   //   text: 'Repositório'
   // },

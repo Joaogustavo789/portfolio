@@ -79,7 +79,7 @@ const skills = [
   },
   {
     id: 10,
-    text: 'CSS in JS',
+    text: 'Styled Comp.',
     image: StyledComponentsLogo,
     description: 'Logo do Styled Components'
   },

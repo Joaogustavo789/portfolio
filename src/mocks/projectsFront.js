@@ -1,19 +1,23 @@
+import ShoppingCartLogo from '../images/projects/shopping-cart.jpg';
+import SolarSystemLogo from '../images/projects/solar-system.jpg';
+import TestesLogo from '../images/projects/testing.jpg';
+
 const projectsFront = [
   {
     id: 1,
     title: 'Shopping Cart',
-    image: '',
+    image: ShoppingCartLogo,
     alt: '',
-    description: 'OII',
+    description: 'Aplicação de um Carrinho de Compras.',
     click: 'https://github.com/Joaogustavo789/Shopping-Cart',
     text: 'Repositório'
   },
   {
     id: 2,
     title: 'Solar System',
-    image: '',
+    image: SolarSystemLogo,
     alt: '',
-    description: 'OII',
+    description: 'Aplicação de um Sistema Solar.',
     click: 'https://github.com/Joaogustavo789/Solar-System',
     text: 'Repositório'
   },
@@ -22,7 +26,7 @@ const projectsFront = [
   //   title: 'Tryunfo',
   //   image: '',
   //   alt: '',
-  //   description: 'OII',
+  //   description: 'Aplicação de um jogo de cartas semelhante ao Trunfo.',
   //   click: '',
   //   text: 'Repositório'
   // },
@@ -31,7 +35,7 @@ const projectsFront = [
   //   title: 'Trybetunes',
   //   image: '',
   //   alt: '',
-  //   description: 'OII',
+  //   description: 'Aplicação de um site de Músicas.',
   //   click: '',
   //   text: 'Repositório'
   // },
@@ -40,16 +44,16 @@ const projectsFront = [
     title: 'Frontend Online Store',
     image: '',
     alt: '',
-    description: 'OII',
+    description: 'Aplicação de um E-commerce.',
     click: 'https://github.com/Joaogustavo789/Frontend-Online-Store',
     text: 'Repositório'
   },
   {
     id: 6,
     title: 'Testes em React',
-    image: '',
+    image: TestesLogo,
     alt: '',
-    description: 'OII',
+    description: 'Projeto que tem como objetivo apresentar os ensinamentos de RTL (React Testing Library).',
     click: 'https://github.com/Joaogustavo789/Testes-Em-React',
     text: 'Repositório'
   },
@@ -58,7 +62,7 @@ const projectsFront = [
     title: 'Gold Wallet',
     image: '',
     alt: '',
-    description: 'OII',
+    description: 'Aplicação de um site de gerenciamento de uma carteira.',
     click: 'https://github.com/Joaogustavo789/Gold-Wallet',
     text: 'Repositório'
   },
@@ -67,7 +71,7 @@ const projectsFront = [
     title: 'Jogo de Trívia',
     image: '',
     alt: '',
-    description: 'OII',
+    description: 'Aplicação de um jogo de Perguntas e Respostas.',
     click: 'https://github.com/Joaogustavo789/Trivia-Game',
     text: 'Repositório'
   },
@@ -76,7 +80,7 @@ const projectsFront = [
   //   title: 'Star Wars',
   //   image: '',
   //   alt: '',
-  //   description: 'OII',
+  //   description: 'Aplicação de uma página de buscas sobre Star Wars.',
   //   click: '',
   //   text: 'Repositório'
   // },
@@ -85,7 +89,7 @@ const projectsFront = [
     title: 'App de Receitas',
     image: '',
     alt: '',
-    description: 'OII',
+    description: 'Aplicação de um site de Receitas.',
     click: 'https://github.com/Joaogustavo789/Recipes-App',
     text: 'Repositório'
   },

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { DivStyled, PtextProject, LinkProject } from './styles';
+import { DivStyled,  ImageProject, PtextProject, DivHover, PtextDescription, LinkProject  } from './styles';
 import { useState } from 'react';
 
 function CardProject(props) {
@@ -16,12 +16,12 @@ function CardProject(props) {
     >
       { hover ? (
           <div>
+            <ImageProject src={ image } alt={ alt } />
             <PtextProject>{ title }</PtextProject>
-            <img src={ image } alt={ alt } />
           </div>
         ) : (
-          <div>
-            <p>{ description }</p>
+          <DivHover>
+            <PtextDescription>{ description }</PtextDescription>
             <LinkProject
               href={ click }
               target="_blank" 
@@ -29,7 +29,7 @@ function CardProject(props) {
             >
               { text }
             </LinkProject>
-          </div>
+          </DivHover>
         )
       }
     </DivStyled>

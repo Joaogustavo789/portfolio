@@ -8,25 +8,29 @@ const contacts = [
     id: 1,
     text: 'Github', 
     link: 'https://github.com/Joaogustavo789', 
-    image: GitHubLogo
+    image: GitHubLogo,
+    alt: 'Logo do GitHub'
   },
   {
     id: 2,
     text: 'Linkedin', 
     link: 'https://www.linkedin.com/in/joao-gustavo-mn/', 
-    image: LinkedinLogo
+    image: LinkedinLogo,
+    alt: 'Logo do Linkedin'
   },
   {
     id: 3,
     text: 'Gmail', 
     link: 'mailto:jgustavomendonca@gmail.com', 
-    image: GmailLogo
+    image: GmailLogo,
+    alt: 'Logo do Gmail'
   },
   {
     id: 4,
     text: 'Instagram', 
     link: 'https://www.instagram.com/joaogustavomn/', 
-    image: InstagramLogo
+    image: InstagramLogo,
+    alt: 'Logo do Instagram'
   },
 ]
 
