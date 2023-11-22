@@ -1,6 +1,9 @@
 import ShoppingCartLogo from '../images/projects/shopping-cart.jpg';
 import SolarSystemLogo from '../images/projects/solar-system.jpg';
-import TestesLogo from '../images/projects/testing.jpg';
+import FrontOnSto from '../images/projects/e-commerce.jpg';
+// import TestesLogo from '../images/projects/testing.jpg';
+import GoldWallet from '../images/projects/wallet.jpg';
+import Trivia from '../images/projects/quiz.jpg';
 
 const projectsFront = [
   {
@@ -42,25 +45,25 @@ const projectsFront = [
   {
     id: 5,
     title: 'Frontend Online Store',
-    image: '',
+    image: FrontOnSto,
     alt: '',
     description: 'Aplicação de um E-commerce.',
     click: 'https://github.com/Joaogustavo789/Frontend-Online-Store',
     text: 'Repositório'
   },
-  {
-    id: 6,
-    title: 'Testes em React',
-    image: TestesLogo,
-    alt: '',
-    description: 'Projeto que tem como objetivo apresentar os ensinamentos de RTL (React Testing Library).',
-    click: 'https://github.com/Joaogustavo789/Testes-Em-React',
-    text: 'Repositório'
-  },
+  // {
+  //   id: 6,
+  //   title: 'Testes em React',
+  //   image: TestesLogo,
+  //   alt: '',
+  //   description: 'Projeto que tem como objetivo apresentar os ensinamentos de RTL (React Testing Library).',
+  //   click: 'https://github.com/Joaogustavo789/Testes-Em-React',
+  //   text: 'Repositório'
+  // },
   {
     id: 7,
     title: 'Gold Wallet',
-    image: '',
+    image: GoldWallet,
     alt: '',
     description: 'Aplicação de um site de gerenciamento de uma carteira.',
     click: 'https://github.com/Joaogustavo789/Gold-Wallet',
@@ -69,7 +72,7 @@ const projectsFront = [
   {
     id: 8,
     title: 'Jogo de Trívia',
-    image: '',
+    image: Trivia,
     alt: '',
     description: 'Aplicação de um jogo de Perguntas e Respostas.',
     click: 'https://github.com/Joaogustavo789/Trivia-Game',
