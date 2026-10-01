@@ -1,29 +1,26 @@
 import PropTypes from 'prop-types';
-import { useHistory } from 'react-router-dom';
-import { ButtonStyled, PtextStyled } from './styles';
+import { useNavigate } from 'react-router-dom';
 
-function Button(props) {
-  const history = useHistory();
-
-  const { route } = props;
-
+function Button({ route }) {
+  const navigate = useNavigate();
   const { click, text } = route;
 
   return (
-    <ButtonStyled 
-      type="button" 
-      onClick={ () => history.push(click) }
+    <button
+      className="rounded-full border border-transparent px-3 py-2 text-xs font-bold uppercase tracking-[0.18em] text-slate-300 hover:border-cyan-300 hover:text-cyan-200 sm:px-4 sm:text-sm"
+      type="button"
+      onClick={() => navigate(click)}
     >
-      <PtextStyled>{ text }</PtextStyled>
-    </ButtonStyled>
-  )
+      {text}
+    </button>
+  );
 }
 
 Button.propTypes = {
   route: PropTypes.shape({
-    click: PropTypes.func,
-    text: PropTypes.string
-  })
+    click: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Button;

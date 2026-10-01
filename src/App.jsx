@@ -1,13 +1,7 @@
-import Routes from "./routes/Routes";
-import { MainStyled } from "./styles";
-import './styles.css';
+import Routes from './routes/Routes';
 
 function App() {
-  return (
-    <MainStyled>
-      <Routes />
-    </MainStyled>
-  )
+  return <Routes />;
 }
 
-export default App
+export default App;

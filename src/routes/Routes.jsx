@@ -1,4 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes as RouterRoutes } from 'react-router-dom';
 import HomePage from '../pages/HomePage/HomePage';
 import AboutPage from '../pages/AboutPage/AboutPage';
 import ProjectsPage from '../pages/ProjectsPage/ProjectsPage';
@@ -10,17 +10,17 @@ import ComputerScience from '../pages/ProjectsPage/Projects/Computer-Science/Com
 
 function Routes() {
   return (
-    <Switch>
-      <Route exact path="/" component={ HomePage }/>
-      <Route exact path="/sobre-mim" component={ AboutPage }/>
-      <Route exact path="/habilidades" component={ SkillsPage }/>
-      <Route exact path="/projetos" component={ ProjectsPage }/>
-      <Route exact path="/projetos/fundamentos" component={ Fundamentos }/>
-      <Route exact path="/projetos/frontend" component={ Frontend }/>
-      <Route exact path="/projetos/backend" component={ Backend }/>
-      <Route exact path="/projetos/computerscience" component={ ComputerScience }/>
-    </Switch>
-  )
+    <RouterRoutes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/sobre-mim" element={<AboutPage />} />
+      <Route path="/habilidades" element={<SkillsPage />} />
+      <Route path="/projetos" element={<ProjectsPage />} />
+      <Route path="/projetos/fundamentos" element={<Fundamentos />} />
+      <Route path="/projetos/frontend" element={<Frontend />} />
+      <Route path="/projetos/backend" element={<Backend />} />
+      <Route path="/projetos/computerscience" element={<ComputerScience />} />
+    </RouterRoutes>
+  );
 }
 
 export default Routes;
